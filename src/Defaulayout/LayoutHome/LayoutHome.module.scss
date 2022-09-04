@@ -1,0 +1,27 @@
+.layout-home {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(./audio/video.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 120px 120px;
+    justify-content: center;
+}
+.item {
+    width: 30%;
+    height: 25%;
+    border: 20px solid;
+    border-image-slice: 1;
+   margin-right: 3%;
+    color: aqua;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1000;
+    box-shadow: 5px -3px 5px 3px black,-5px -3px 5px 3px black;
+}
+

@@ -1,0 +1,121 @@
+.menu {
+    position: fixed;
+    width: 180px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 20px 0;
+}
+.color-web {
+    width: 100%;
+    height: max-content;
+    
+}
+.color-web > button {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+   background-color: transparent;
+   padding: 5px;
+   font-weight: 700;
+   border: none;
+}
+.button-set-color {
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid red;
+    box-shadow: -3px 3px 3px 3px,3px 3px 3px 3px;
+    &:hover {
+        background-color: #3f87a6;
+    }
+}
+
+.list-menu {
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.list-menu li {
+    width: 100%;
+    height: max-content;
+    display: block;
+    border-top: 2px solid black;
+}
+.item-menu {
+    display: block;
+    transition: 1s;
+    padding: 10px 10px;
+    font-weight: 800;
+    width: 100%;
+    &:hover 
+    
+{
+        background-color: #3f87a6;
+    color: aqua;
+    }
+}
+.active {
+    display: block;
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    transition: 1s;
+    border: 1px solid black;
+    height: 100%;
+    padding: 10px;
+    background-color: #3f87a6;
+    color: aqua;
+    width: 120%;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.menu-color {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 50px;
+}
+.menu-color button {
+    width: 27%;
+    height: 22px;
+    margin-bottom: 5px;
+   border: none;
+   cursor: pointer;
+}
+
+.menu-color .activecolor {
+    border: 3px solid black;
+}
+.menu > button {
+    cursor: pointer;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px black, -2px 2px 2px 2px black;
+}
+.button-hide {
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 14%, rgba(64, 192, 175, 1) 36%, rgba(253, 187, 45, 1) 69%);
+    
+    &:hover {
+        background: #3f87a6;
+    }
+}
+.button-show {
+    color: black;
+      background: #3f87a6;
+
+      &:hover {
+        background: linear-gradient(0deg, rgba(34, 193, 195, 1) 14%, rgba(64, 192, 175, 1) 36%, rgba(253, 187, 45, 1) 69%);
+      }
+}
